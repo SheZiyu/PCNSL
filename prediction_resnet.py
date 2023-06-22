@@ -1,21 +1,12 @@
 #!/usr/bin/python
 # coding: utf-8
 
-
-
-# In[ ]:
+ 
 
 import train_resnet
 from train_resnet import *
 
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
+ 
 
 #a = load_image_3d(scan_id="Pcnls_1")
 #a = np.array(a)
@@ -28,8 +19,7 @@ from train_resnet import *
 #print(b.shape)
 
 
-# In[ ]:
-
+ 
 
 #def get_last_conv_name(model):
 #    layer_name = None
@@ -56,8 +46,7 @@ import torch
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-
-# In[ ]:
+ 
 
 
 
