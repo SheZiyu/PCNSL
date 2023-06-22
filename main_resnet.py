@@ -55,16 +55,7 @@ if __name__ == "__main__":
 #print(b.shape)
 
 
-
-
-
-
-
-
-# In[ ]:
-
-
-
+ 
 
  
 #a = load_image_3d(scan_id="Pcnls_1")
