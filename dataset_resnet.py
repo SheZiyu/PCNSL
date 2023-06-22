@@ -2,27 +2,13 @@
 
 # coding: utf-8
 
-# In[1]:
-
-
-
-
-# In[2]:
-
-
 from preprocessing_resnet import *
 import numpy as np
 from sklearn.model_selection import RepeatedStratifiedKFold
 
-# In[88]:
+ 
 
-
-#torch.tensor(np.array(a))
-
-
-# In[89]:
-
-#
+ 
 # data_directory="/data/down"
 # train_df = pd.read_csv("{}/Overall_Survival_1year.csv".format(data_directory))
 
@@ -57,14 +43,10 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 #dummies_valid = pd.get_dummies(df_valid["OS 1 year"]) # Classification
 #products_valid = dummies_valid.columns
 #y_valid = dummies_valid.values
-# In[90]:
 
 
 #df_train.head()#tail
-
-
-# In[91]:
-
+ 
 
 class Dataset(torch_data.Dataset):
     def __init__(self, paths, targets, split, norm_set_of_files, transforms=None):
