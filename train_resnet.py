@@ -2,20 +2,6 @@
 #!/usr/bin/python
 # coding: utf-8
 
-# In[1]:
-
-
-
-
-
-# In[2]:
-
-
-
-
-
-# In[3]:
-
 
 from dataset_resnet import *
 
@@ -28,7 +14,7 @@ random_state = 12
 #checkpoint = torch.load(model_file)
 #model.load_state_dict(checkpoint["state_dict"], strict=False)
 #print(get_last_conv_name(model_resnet50))
-# In[4]:
+ 
 
 
 
@@ -44,7 +30,7 @@ random_state = 12
 #        return out
  
 
-# In[5]:
+ 
 
 
 class Trainer:
@@ -555,10 +541,7 @@ class Trainer:
     @staticmethod
     def info_message(message, *args, end="\n"):
         print(message.format(*args), end=end)
-
-
-# In[6]:
-
+ 
 
 torch.cuda.empty_cache()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
