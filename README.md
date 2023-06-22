@@ -27,10 +27,12 @@ Keypoints of paper:
 
 3. Result
    ![image](https://github.com/SheZiyu/PCNSL/assets/98766434/91117a7c-c762-4ff6-aad0-a7332be3dbf7)
+
    Qutitative Result: Cross-validation results of ML models and 3D ResNet. SVM (Support Vector Machine). T (Training from Scratch). TL (Transfer Learning). Clinic means clinical data. T1r, T2r and T1Gdr mean radiomics data from T1, T2 and T1Gd. * means p < 0.05 in the t-test. Best performance on T1Gd, consistent with clinical outcome.
 
    ![image](https://github.com/SheZiyu/PCNSL/assets/98766434/e916f486-454a-4418-830c-7a75e0b2152a)
    ![image](https://github.com/SheZiyu/PCNSL/assets/98766434/2cdc5f46-9a86-4d4f-ac93-9ff7cc11f156)
+
    Qulitative Result: OS pattern of 3D ResNet. #number (patient ID). MRI (TIGd slice near tumor). Activation Map (activation map of the slice). Colorbar shows activation map intensity. PCNSL is a whole-brain disease; in cases where OS less than 1 year (Bottom), it is more difficult to distinguish tumor boundary from normal part of the brain than where OS more than 1 year (Top); consistent with clinical outcome. 
 
 
