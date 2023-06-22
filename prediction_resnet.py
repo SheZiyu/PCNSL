@@ -1,18 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
 
-# In[1]:
-
-
-
-
-
-# In[2]:
-
-
-
-# In[3]:
-
 
 
 # In[ ]:
@@ -62,21 +50,6 @@ def get_last_conv_name_(model):
             #print(layer_name)
     return layer_name
 
-#modelfile = "all-cofinetuneresnet_min_loss_model_classification3d_array.pth"
-#checkpoint_new = torch.load(modelfile)
-#class Net_New(nn.Module):
-#    def __init__(self):
-#        super(Net_New, self).__init__()
-#        self.net = Net()
-#        self.net.load_state_dict(checkpoint_new["model_state_dict"])
-         
-
-#    def forward(self, x):
-#        out_1, out_2 = self.net(x)
-
-#        return out_2
-
-#print(get_last_conv_name_(Net_New()))
 
 import torch
 #torch.cuda.empty_cache()
