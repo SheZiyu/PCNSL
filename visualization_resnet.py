@@ -1,18 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
 
-# In[1]:
-
-
-
-
-
-# In[2]:
-
-
-
-# In[3]:
-
 
 
 # In[ ]:
@@ -129,21 +117,6 @@ def get_last_conv_name_(model):
 
 
 
-#modelfile = "all-cofinetuneresnet_min_loss_model_classification3d_array.pth"
-#checkpoint_new = torch.load(modelfile)
-#class Net_New(nn.Module):
-#    def __init__(self):
-#        super(Net_New, self).__init__()
-#        self.net = Net()
-#        self.net.load_state_dict(checkpoint_new["model_state_dict"])
-         
-
-#    def forward(self, x):
-#        out_1, out_2 = self.net(x)
-
-#        return out_2
-
-#print(get_last_conv_name_(Net_New()))
 
 
 
@@ -381,14 +354,6 @@ def medCAM(img, id, modelfile, model, mri_types, index, truelabel
         show_plt_old(y, "{}/type_{}-layer_{}-index_{}-truelabel_{}-prelabel_{}.jpg".format(path_old, j, layer_name, index, truelabel, prelabel))
         # show_plt_(x, "/data/data_Flair/resnet_feature_maps/raw-modelfile_{}/patients_{}/type_{}-layer_{}-index_{}-truelabel_{}-prelabel_{}".format(modelfile, id, j, layer_name, index, truelabel, prelabel))
         show_plt_(z, "{}/type_{}-layer_{}-index_{}-truelabel_{}-prelabel_{}.jpg".format(path, j, layer_name, index, truelabel, prelabel))
-
-
-    # mask before or after
-    # quedingxing bquedingxing
-    # mask
-    # pattern
-    # activation histgram
-    # activation heatmap contrast
 
 
 for model, modelfile in zip(l1, l2):
