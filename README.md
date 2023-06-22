@@ -1,11 +1,9 @@
 # PCNSL
 
 This is code of paper:
-
 Deep Learning-based Overall Survival (OS) Prediction Model in Patients with Rare Cancer: A Case Study for Primary Central Nervous System Lymphoma (PCNSL), published on International Journal of Computer Assisted Radiology and Surgery (2023).
 
 Link of paper:
-
 https://link.springer.com/article/10.1007/s11548-023-02886-2
 
 Keypoints of paper:
@@ -43,7 +41,6 @@ Keypoints of paper:
    Qulitative Result: OS pattern of 3D ResNet. #number (patient ID). MRI (TIGd slice near tumor). Activation Map (activation map of the slice). Colorbar shows activation map intensity. PCNSL is a whole-brain disease; in cases where OS less than 1 year (Bottom), it is more difficult to distinguish tumor boundary from normal part of the brain than where OS more than 1 year (Top); consistent with clinical outcome. 
 
 Citation:
-
 @article{she2023deep,
   title={Deep learning-based overall survival prediction model in patients with rare cancer: a case study for primary central nervous system lymphoma},
   author={She, Ziyu and Marzullo, Aldo and Destito, Michela and Spadea, Maria Francesca and Leone, Riccardo and Anzalone, Nicoletta and Steffanoni, Sara and Erbella, Federico and Ferreri, Andr{\'e}s JM and Ferrigno, Giancarlo and others},
