@@ -2,14 +2,11 @@
 # coding: utf-8
 
 
-
-# In[ ]:
-
+ 
 import train_resnet
 from train_resnet import *
 
-
-# In[ ]:
+ 
 
 
 rows, cols = 1, 3
@@ -74,9 +71,7 @@ def show_plt_old(img, name):
     plt.show()
     plt.figure(1).clear()
 
-
-# In[ ]:
-
+ 
 
 #a = load_image_3d(scan_id="Pcnls_1")
 #a = np.array(a)
@@ -88,8 +83,7 @@ def show_plt_old(img, name):
 #b = a.unsqueeze(0)
 #print(b.shape)
 
-
-# In[ ]:
+ 
 
 
 #def get_last_conv_name(model):
@@ -115,16 +109,7 @@ def get_last_conv_name_(model):
     return layers_name[-1]
 
 
-
-
-
-
-
-
-
-# In[ ]:
-
-
+ 
 #model = Model()
 #model.to(device)
 #checkpoint = torch.load(modelfile)
