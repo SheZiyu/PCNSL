@@ -8,7 +8,7 @@ https://link.springer.com/article/10.1007/s11548-023-02886-2
 
 Keypoints of paper:
 
-1. Data Collection and Data Preprocessing
+1. Data Collection and Data Preprocessing 
    
    ![1](https://github.com/SheZiyu/PCNSL/assets/98766434/7796ca24-6420-45ed-891a-56252a59c8da)
 
@@ -16,7 +16,7 @@ Keypoints of paper:
 
    Step #1: Bias field correction, registration, skull stripping, intensity normalization and voxel resampling using 3D Slicer.
 
-   Step #2: Data augmentation including background removal, elastic deformation, random spatial cropping, random rotation and resizing using MONAI.
+   Step #2: Data augmentation including background removal, elastic deformation, random spatial cropping, random rotation and resizing using MONAI (preprocessing_resnet.py).
 
 2. 3D Residual Network (ResNet), Transfer Learning and Gradient-weighted Class Activation Mapping (Grad-Cam)
    
