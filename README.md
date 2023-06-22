@@ -8,6 +8,7 @@ https://link.springer.com/article/10.1007/s11548-023-02886-2
 
 Keypoints of paper:
 1. Data Collection and Data Preprocessing
+   
    ![image](https://github.com/SheZiyu/PCNSL/assets/98766434/f8adcce5-5062-4d8e-b146-495b22c93649)
    
    Data Collection: T1-weighted (T1), T2-weighted (T2), post-contrast T1-weighted (T1Gd) and OS of these patients are collected. OS positive means OS more than 1 year and negative means less than 1 year. There are 30 positive cases and 26 negative cases.
@@ -17,6 +18,7 @@ Keypoints of paper:
    Step #2: Data augmentation including background removal, elastic deformation, random spatial cropping, random rotation and resizing using MONAI.
 
 2. 3D Residual Network (ResNet), Transfer Learning and Gradient-weighted Class Activation Mapping (Grad-Cam)
+   
    ![image](https://github.com/SheZiyu/PCNSL/assets/98766434/c344c428-9e5c-4e24-86de-f8ad561d087d)
 
    3D ResNet Architecture: Input 3D images, use convolution layers and pooling layers as encoder to extract features, finally, use a linear FC layer to output OS classification results.
@@ -26,6 +28,7 @@ Keypoints of paper:
    Grad-cam: Output pattern of the 3D ResNet.
 
 3. Result
+   
    ![image](https://github.com/SheZiyu/PCNSL/assets/98766434/91117a7c-c762-4ff6-aad0-a7332be3dbf7)
 
    Qutitative Result: Cross-validation results of ML models and 3D ResNet. SVM (Support Vector Machine). T (Training from Scratch). TL (Transfer Learning). Clinic means clinical data. T1r, T2r and T1Gdr mean radiomics data from T1, T2 and T1Gd. * means p < 0.05 in the t-test. Best performance on T1Gd, consistent with clinical outcome.
