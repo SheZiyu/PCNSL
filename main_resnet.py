@@ -1,13 +1,11 @@
 #!/usr/bin/python
 # coding: utf-8
 
-# In[3]:
-
+ 
 
 from train_resnet import *
 
-
-# In[10]:
+ 
 
 #class Model(nn.Module):
 #    def __init__(self):
