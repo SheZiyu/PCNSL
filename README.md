@@ -22,11 +22,11 @@ Keypoints of paper:
    
    ![scratch_](https://github.com/SheZiyu/PCNSL/assets/98766434/fbdc7f0a-8715-4170-8ee0-ffb1b4cba978)
 
-   3D ResNet Architecture: Input 3D images, use convolution layers and pooling layers as encoder to extract features, finally, use a linear FC layer to output OS classification results.
+   3D ResNet Architecture: Input 3D images, use convolution layers and pooling layers as encoder to extract features, finally, use a linear FC layer to output OS classification results (train_resnet.py).
 
    Transfer Learning: Pre-train 3D ResNet on BraTS2020 for OS classification of patients with glioblastoma (BraTS2020 consists of multi-modal preoperative images of 235 glioblastoma patients from 19 institutions with OS), then, fine-tune the 3D ResNet on PCNSL dataset for the target task OS classification of patients with PCNSL.
 
-   Grad-cam: Output pattern of the 3D ResNet.
+   Grad-cam: Output pattern of the 3D ResNet (visualization_resnet.py).
 
 3. Result
 
