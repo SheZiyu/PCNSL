@@ -29,7 +29,7 @@ Keypoints of paper:
 
 3. Result
 
-   ![000](https://github.com/SheZiyu/PCNSL/assets/98766434/20e8bd45-8b73-4271-824a-c653c3d2cff8)
+   ![image](https://github.com/SheZiyu/PCNSL/assets/98766434/91565a84-7af2-4254-8aea-5ced898b0857)
 
    Qutitative Result: Cross-validation results of ML models and 3D ResNet. SVM (Support Vector Machine). T (Training from Scratch). TL (Transfer Learning). Clinic means clinical data. T1r, T2r and T1Gdr mean radiomics data from T1, T2 and T1Gd. * means p < 0.05 in the t-test. Best performance on T1Gd, consistent with clinical outcome.
 
